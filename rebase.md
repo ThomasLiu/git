@@ -19,7 +19,9 @@ git checkout local
 #如果有多次local分支的提交，就合并，只有一次可以不合并
 git rebase -i HEAD~2  //合并提交 --- 2表示合并两个
 #将master内容合并到local
-git rebase master---->解决冲突--->git rebase --continue
+git rebase master
+# 解决冲突后
+git rebase --continue
 #再起切换到master或其他目标分支
 git checkout master
 #将local合并到master
