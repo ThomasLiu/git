@@ -10,7 +10,6 @@
 
 所以关于 rebase 的推荐工作流程是：
 
-#--------------------
 ``` bash
 git checkout master
 git pull
